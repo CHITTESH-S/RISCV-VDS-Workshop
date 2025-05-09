@@ -1,20 +1,24 @@
-# RV Day 5 - Complete Pipelined RISC-V CPU micro-architecture
-## 1) Pipelining the CPU
+# Day 5: Complete Pipelined RISC-V CPU micro-architecture
+## RV-D5SK1 – Pipelining the CPU
 ### L1_Introduction To Control Flow Hazard And Read After Write Hazard
 ### L2_Lab To Create 3-Cycle Valid Signal
+
   ![Screenshot 2025-04-30 231510](https://github.com/user-attachments/assets/732a1fb7-9ae7-4284-8da5-c76781847c08)
 
 ### L3_Lab To Code 3-Cycle RISC-V To Take Care Of Invalid Cycles
+
   ![Screenshot 2025-04-30 231921](https://github.com/user-attachments/assets/d3880e0c-68d1-4371-b483-e3054916e945)
 
 ### L4_Lab To Modify 3-Cycle RISC-V To Distribute Logic
+
   ![Screenshot 2025-04-30 232059](https://github.com/user-attachments/assets/bf729518-751c-439c-9015-d1ef59803ba8)
 
-## 2) Solutions to Pipeline Hazards
+## RV-D5SK2 – Solutions to Pipeline Hazards
 ### L1_Lab For Register File Bypass To Address Rd-After-Wr Hazard
   - Introduces a bypass path from the ALU output of the previous instruction to the input of the current instruction.
   - Allows immediate use of results without waiting for them to be written and read from the register file.
   - Uses a multiplexer to choose between bypassed value and register file value.
+  - 
   ![Screenshot 2025-04-30 232250](https://github.com/user-attachments/assets/5a666d66-4c34-459a-b9f0-e6266e20096c)
 
 ### L2_Lab For Branches To Correct The Branch Target Path
@@ -25,7 +29,9 @@ On taking a branch, the CPU must redirect the PC correctly and invalidate specul
 - PC loop is updated to a 1-cycle loop for normal execution, retaining a 3-cycle loop for branch redirection.
 - Simulate with the near one-instruction-per-cycle model.
 - Validate the bypass and branch handling logic.
+
   ![Screenshot 2025-04-30 232925](https://github.com/user-attachments/assets/930e650e-5c1d-4d4d-95c8-ed6a8472c26f)
+  
   ![Screenshot 2025-04-30 233008](https://github.com/user-attachments/assets/6bda6101-8742-4d90-a4d2-f0c81ae696bf)
 
 ### L3_Lab To Complete Instruction Decode Except Fence, Ecall, Ebreak
@@ -35,18 +41,10 @@ On taking a branch, the CPU must redirect the PC correctly and invalidate specul
 - Introduce `is_load` signal to simplify decoding of all load instructions.
 
 ### L4_Lab To Code Complete ALU
+
   ![Screenshot 2025-04-30 232925](https://github.com/user-attachments/assets/930e650e-5c1d-4d4d-95c8-ed6a8472c26f)
 
------
-  
-## 3) Load/Store Instructions and Completing RISC-V CPU
-### L1. Introduction To Load Store Instructions And Lab To Redirect Loads
-### L2_Lab To Load Data From Memory To Register File
-### L3_Lab To Instantiate Data Memory To The CPU
-### L4_Lab To Add Stores And Loads To The Test Program
-### L5_Lab To Add Control Logic For Jump Instructions
-
------
+## RV-D5SK3 – Load/Store Instructions and Completing RISC-V CPU
 
 **Code**
 
