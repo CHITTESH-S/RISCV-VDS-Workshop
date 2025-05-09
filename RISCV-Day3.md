@@ -15,7 +15,7 @@
 
 3. **Boolean Operators**
    - Connect logical expressions in both hardware and software design.
-   ![Picture1](https://github.com/user-attachments/assets/17cd6511-7c3f-4426-938e-6d8e4a01e42c)
+![Picture1](https://github.com/user-attachments/assets/17cd6511-7c3f-4426-938e-6d8e4a01e42c)
 
 ### L2_Basic Mux Implementation and Introduction to Makerchip
 
