@@ -1,8 +1,6 @@
 
 ## Day 2: Introduction to ABI and Basic Verification Flow
 
----
-
 ### RV-D2SK1 — Application Binary Interface (ABI)
 
 #### L1: Introduction to ABI
@@ -13,15 +11,11 @@ The Application Binary Interface (ABI) defines the low-level interface between a
 - Register usage and conventions
 - Memory layout and data type sizes
 
----
-
 #### L2: Memory Allocation for Double Words
 
 - A double word in RISC-V (RV64) architecture refers to 64 bits (8 bytes), which is the standard word size for storing 64-bit integers or addresses in memory.
 - Double words must be stored at 8-byte aligned addresses (i.e., addresses divisible by 8) to ensure efficient access and avoid alignment faults on certain architectures.
 - During execution, memory for double words may be allocated on the stack (for local variables) or heap (for dynamic allocation), and proper alignment must be preserved by the compiler or programmer.
-
----
 
 #### L3: Load, Add, and Store Instructions
 
@@ -37,8 +31,6 @@ lw x6, 4(x10)      # Load word at address (x10 + 4) to x6
 add x7, x5, x6     # Add values in x5 and x6, store result in x7
 sw x7, 8(x10)      # Store result from x7 at address (x10 + 8)
 ```
-
----
 
 #### L4: Concluding 32 Registers and Their Respective ABI Names
 
@@ -57,18 +49,27 @@ sw x7, 8(x10)      # Store result from x7 at address (x10 + 8)
 | x18–x27  | s2–s11       | Saved registers               | Callee   |
 | x28–x31  | t3–t6        | Temporaries                   | Callee   |
 
----
 
 ## RV-D2SK2 — Lab Work: Custom Sum Algorithm in Assembly
 
 #### L1 — Study New Algorithm for Sum 1 to N Using ASM
 
+![Screenshot 2025-05-09 135846](https://github.com/user-attachments/assets/3edfc8e2-66c1-4e22-91f9-25aaac42bb0f)
+
 #### L2 — Review ASM Function Call
+
+![Screenshot 2025-05-09 140342](https://github.com/user-attachments/assets/ca144911-02bf-45ac-85d1-6bec2270cef6)
 
 #### L3 — Simulate New C Program with Function Call
 
----
+![Screenshot 2025-05-09 142102](https://github.com/user-attachments/assets/7d66d7ec-53cd-4d04-ac45-7a4d4a9a096b)
+
+![Screenshot 2025-05-09 142154](https://github.com/user-attachments/assets/c30cfc2b-0563-4bfa-afa1-355dc735a1b8)
+
 
 ## RV-D2SK3 — Basic Verification Flow using Icarus Verilog
 
 #### L1 — Lab to Run C-Program On RISC-V CPU
+
+![Screenshot 2025-05-09 143149](https://github.com/user-attachments/assets/f368c69a-c630-4812-b896-902cc88ac531)
+
