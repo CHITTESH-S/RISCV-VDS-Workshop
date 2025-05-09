@@ -3,7 +3,7 @@
 Welcome to my repository for the **RISC-V VSD (VLSI System Design)** Workshop.  
 This workshop explores RISC-V fundamentals, covering the Instruction Set Architecture (ISA), processor design, and hands-on simulation.
 
-📅 5-Day Learning Plan
+📅 5-Days Learning Plan
 
 📘 Day 1: Introduction to RISC-V and Tool Setup
 - Overview of RISC-V ISA
