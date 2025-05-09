@@ -1,6 +1,11 @@
 # Day 4: Basic RISC-V CPU Micro-architecture
 ## RV-D4SK1 – Introduction to Simple RISC-V Micro-architecture
 ### L1_Micro-architecture of Single Cycle RISC-V CPU
+
+Here, we are looking at the high-level block diagram of a single-cycle RISC-V CPU. We examine how each of the instructions finishes in one clock cycle—fetch, decode, execute, memory access, and write-back stages are parallelized within hardware structures.
+
+![Screenshot 2025-05-09 223428](https://github.com/user-attachments/assets/30a41511-4dd0-4088-ac37-11f39afb4b8b)
+
 ### L2_Starting Point Code for RISC-V Labs Part-1
 
   ![Screenshot 2025-04-30 200626](https://github.com/user-attachments/assets/b84c2f25-345d-4b1e-aa99-fa69515795e2)
