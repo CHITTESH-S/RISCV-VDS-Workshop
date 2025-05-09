@@ -34,6 +34,5 @@ This workshop explores RISC-V fundamentals, covering the Instruction Set Archite
 - [RISC-V GitHub Toolchain](https://github.com/riscv-collab/riscv-gnu-toolchain)
 - [VSD Learning](https://www.vlsisystemdesign.com/)
 - [Makerchip IDE](https://makerchip.com/)
-
-🙏 Acknowledgements
+  
 Thanks to VSD and the mentors for providing this hands-on opportunity to dive deep into RISC-V and processor.
