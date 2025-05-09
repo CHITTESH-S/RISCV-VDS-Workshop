@@ -1,6 +1,9 @@
 # Day 5: Complete Pipelined RISC-V CPU micro-architecture
 ## RV-D5SK1 – Pipelining the CPU
 ### L1_Introduction To Control Flow Hazard And Read After Write Hazard
+
+Pipeline hazards occur when instructions in different stages of the pipeline conflict. Control-flow hazards happen when a branch or jump changes the PC and speculative instructions must be invalidated.
+
 ### L2_Lab To Create 3-Cycle Valid Signal
 
   ![Screenshot 2025-04-30 231510](https://github.com/user-attachments/assets/732a1fb7-9ae7-4284-8da5-c76781847c08)
