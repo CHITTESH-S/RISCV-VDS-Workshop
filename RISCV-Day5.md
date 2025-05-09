@@ -18,7 +18,7 @@
   - Introduces a bypass path from the ALU output of the previous instruction to the input of the current instruction.
   - Allows immediate use of results without waiting for them to be written and read from the register file.
   - Uses a multiplexer to choose between bypassed value and register file value.
-  - 
+
   ![Screenshot 2025-04-30 232250](https://github.com/user-attachments/assets/5a666d66-4c34-459a-b9f0-e6266e20096c)
 
 ### L2_Lab For Branches To Correct The Branch Target Path
